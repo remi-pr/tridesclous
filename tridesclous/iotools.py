@@ -163,7 +163,7 @@ class ArrayCollection:
             #~ #delete file if exist
             #~ filename = self._fname(name)
         self.detach_array(name)
-        raise(NotimplementedError)
+        raise NotImplementedError
         
         
     def detach_array(self, name, mmap_close=False):

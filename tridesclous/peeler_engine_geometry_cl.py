@@ -431,7 +431,7 @@ class PeelerEngineGeometricalCl(PeelerEngineGeneric):
         else:
             if self.signalpreprocessor.common_ref_removal:
                 # because not done in kernel yet
-                raise NotImplemenentedError
+                raise NotImplementedError
             
             abs_head_index, preprocessed_chunk = self.signalpreprocessor.process_data(pos, sigs_chunk)
         
